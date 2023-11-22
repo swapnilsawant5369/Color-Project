@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.backimgCss {
+    background-image: url(../Images/BackgroundImage.jpeg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.containerCss {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbarCss {
+    padding: 10px 52px;
+}
+
+.navbar-brand {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.iconcss {
+    display: flex;
+    align-items: center;
+}
+
+.atag {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 16px;
+}
+
+.LoanBtn {
+    padding: 16px 32px;
+    background-color: green;
+    border-radius: 0;
+}
+
+.maintitle {
+    font-size: 65px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.formdesign {
+    background-color: #fff;
+    padding: 32px 32px;
+}
+
+.passage1 {
+    font-size: 26px;
+    color: #fff;
+}
+
+.ourbtn {
+    margin-top: 16px;
+    padding: 24px 52px;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+}
+
+.ourbtn:hover {
+    background-color: green;
+    border: 2px solid green;
+}
+
+.howcss {
+    color: rgb(16, 25, 16);
+    text-align: center;
+}
+
+.selectcss {
+    padding: 10px 16px;
+    border-radius: 0px;
+    font-size: 14px;
+    color: black;
+}
+
+.applybtn {
+    padding: 10px;
+    width: 100%;
+    background-color: green;
+    border: 1px solid green;
+    color: #fff;
+    font-weight: bold;
+}
+
+.sametitle {
+    color: rgb(12, 34, 12);
+    font-weight: bold;
+}
+
+.sametitle:hover {
+    color: green;
+}
+
+.section-4 {
+    padding: 0px 42px;
+}
+
+.section-5 {
+    padding: 0px 42px;
+}
+
+.mainposition {
+    position: relative;
+}
+
+.imagecss {
+    height: 500px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.columcss {
+    position: absolute;
+    bottom: -40px;
+    right: 30px;
+    background-color: green;
+    height: 220px;
+    width: 220px;
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
+
+.section-6 {
+    padding: 0px 32px;
+}
+
+.we-guide {
+    font-weight: 800;
+    color: rgb(17, 35, 17);
+}
+
+ul li h5 {
+    line-height: 1;
+    color: rgb(17, 35, 17);
+}
+
+ul li {
+    font-size: 35px;
+    align-items: center;
+    color: green;
+}
+
+.LearnMoreBtn {
+    margin-top: 16px;
+    padding: 20px 52px;
+    border: 2px solid green;
+    background: transparent;
+    color: green;
+    font-size: 18px;
+}
+
+.LearnMoreBtn:hover {
+    background-color: green;
+    color: white;
+}
+
+.subtitlesame {
+    color: rgb(17, 39, 17);
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.subtitlesame:hover {
+    color: green;
+}
+
+#alliconcss {
+    font-size: 40px;
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: green;
+}
+
+.slidercss {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    background-color: rgb(33, 61, 33);
+
+}
+
+.sliderwidthcss {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.borderradius {
+    display: flex;
+    align-items: center;
+}
+
+.sameimagecss {
+    width: 400px;
+    height: 350px;
+}
+
+.atagcss {
+    text-decoration: none;
+    color: black;
+}
+
+.atagcss:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+.input-group-text {
+    padding: 16px 16px;
+    color: #fff;
+    font-size: 26px;
+    background-color: green;
+}
+
+.form-control {
+    padding: 16px 16px;
+    border: 1px solid green;
+}
+
+#facebook {
+    font-size: 26px;
+    transition: transform 0.7s;
+    transform-style: preserve-3d;
+    margin-right: 32px;
+    cursor: pointer;
+    /* transform: rotatew(180deg); */
+
+}
+
+#facebook:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    color: green;
+}
+
+
+
+
+
+
+
+@media (max-width: 575.98px) {
+
+
+    .navbarCss {
+        padding: 10px 0px;
+    }
+
+    .LoanBtn {
+        padding: 10px 22px;
+        background-color: green;
+        border-radius: 0;
+    }
+
+    .maintitle {
+        font-size: 45px;
+        font-weight: bolder;
+        font-family: sans-serif;
+        color: #fff;
+    }
+
+    .passage1 {
+        font-size: 18px;
+        color: #fff;
+    }
+
+    .ourbtn {
+        margin-top: 16px;
+        padding: 16px 46px;
+        border: 2px solid #fff;
+        background: transparent;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+
+    .backimgCss {
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section-4 {
+        padding: 0;
+    }
+
+    .section-5 {
+        padding: 0;
+    }
+
+    .imagecss {
+        height: 400px;
+        width: 350px;
+    }
+
+    .columcss {
+        bottom: 0px;
+        right: 0;
+    }
+
+    .we-guide {
+        margin-top: 32px;
+    }
+
+    .section-6 {
+        padding: 0px 0px;
+    }
+
+    .sliderwidthcss {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .sliderinnerpassage {
+        font-size: 16px;
+    }
+
+    .formdesign {
+        margin-bottom: 32px;
+    }
+
+}
