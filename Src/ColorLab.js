@@ -13,3 +13,4 @@ document.write(Total);
 for(var num =1; num <=100; num++){
     document.write(num+"<br>");
 }
+// This is a for loop.
