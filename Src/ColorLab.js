@@ -9,3 +9,7 @@ let New = 10;
 var Sum = 30;
 var Total = Sum + New;
 document.write(Total);
+
+for(var num =1; num <=100; num++){
+    document.write(num+"<br>");
+}
